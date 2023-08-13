@@ -1,0 +1,36 @@
+.movie-card-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.home-sec {
+    width: 100%;
+}
+
+.filter-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-panel select {
+    width: 150px;
+    padding: 0.5em 1rem;
+}
+
+.filter-panel button {
+    padding: 0.5em 1rem;
+    background-color: #f5c518;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.filter-panel button:hover {
+    background-color: orange
+}

@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.nav-logo {
+    color: #f5c518;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    width: 300px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #f5c518;
+}
